@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+#
+# Copyright (c) Anton Zelenov.
+#
+# This file is released under the 0-clause BSD License.
+# Refer the 0BSD.txt file for the full text of the license.
+
+exec bash "$(which "$0").bash" "$@"
